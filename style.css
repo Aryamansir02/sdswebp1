@@ -33,6 +33,7 @@ h2{
     row-gap: 6vw;
     column-gap: 10%;
 }
+
 .img-container img{
     display: block;
     width: 18em;
@@ -42,7 +43,6 @@ h2{
     max-height: 80vw;
     min-width: 30vw;
     min-height: 30vw;
-
     filter: grayscale(0%);
     filter: gray;
     -webkit-filter: grayscale(0%);
@@ -52,11 +52,9 @@ h2{
 
 .img-container img:hover{
     cursor: pointer;
-
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     transition: all 1s ease;
-
 }
 
 .rectangle{
@@ -65,12 +63,15 @@ h2{
     max-height: 65vw;
     min-height: 22vw;
 }
+
 .triangle{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+
 .circle{
     border-radius: 50%;
 }
+
 .overlay{
     position: fixed;
     display: none;
@@ -84,6 +85,7 @@ h2{
     z-index: 2;
     text-align: center;
 }
+
 .over-box{
     position: absolute;
     top: 50%;
@@ -98,6 +100,7 @@ h2{
     background-color: rgb(38, 196, 175);
     padding:2vh 2vw;
 }
+
 .close{
     position: absolute;
     top: 0px;
