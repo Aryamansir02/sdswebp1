@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -17,16 +19,16 @@
         The sky is blue, the grass is green. The sun shines through the window.
     </h2>
     <div class="img-container">
-        <img src="images/pic1.png" alt="circle-shaped-image" class="circle" onclick="overlayOn()">
-        <img src="images/pic2.png" alt="rectangle-shaped-image" class="rectangle" onclick="overlayOn()">
-        <img src="images/pic3.png" alt="square-shaped-image" onclick="overlayOn()">
-        <img src="images/pic4.png" alt="triangle-shaped-image" class="triangle" onclick="overlayOn()">
+        <img src="./images/pic1.png" alt="circle-shaped-image" class="circle" onclick="overlayOn()">
+        <img src="./images/pic2.png" alt="rectangle-shaped-image" class="rectangle" onclick="overlayOn()">
+        <img src="./images/pic3.png" alt="square-shaped-image" onclick="overlayOn()">
+        <img src="./images/pic4.png" alt="triangle-shaped-image" class="triangle" onclick="overlayOn()">
     </div>
     <div id="overlay">
         <div id="over-box">
             <h1>Lake Wakatipu</h1>
-            <span id="cross" onclick="overlayOff()">tratratra</span>
-            <img src="images/pic1.png" alt="Overlay-Picture">
+            <i class="fas fa-times-circle fa-3x" id=close onclick="overlayOff()"></i>
+            <img src="./images/pic1.png" alt="Overlay-Picture">
         </div>
     </div>
     <script src="test.js"></script>
