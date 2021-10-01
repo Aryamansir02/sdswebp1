@@ -19,16 +19,37 @@
         The sky is blue, the grass is green. The sun shines through the window.
     </h2>
     <div class="img-container">
-        <img src="./images/pic1.png" alt="circle-shaped-image" class="circle" onclick="overlayOn()">
-        <img src="./images/pic2.png" alt="rectangle-shaped-image" class="rectangle" onclick="overlayOn()">
-        <img src="./images/pic3.png" alt="square-shaped-image" onclick="overlayOn()">
-        <img src="./images/pic4.png" alt="triangle-shaped-image" class="triangle" onclick="overlayOn()">
+        <img src="./images/pic1.png" alt="circle-shaped-image" class="circle" onclick="overlayOn1()">
+        <img src="./images/pic2.png" alt="rectangle-shaped-image" class="rectangle" onclick="overlayOn2()">
+        <img src="./images/pic3.png" alt="square-shaped-image" onclick="overlayOn3()">
+        <img src="./images/pic4.png" alt="triangle-shaped-image" class="triangle" onclick="overlayOn4()">
     </div>
-    <div id="overlay">
-        <div id="over-box">
+    <div id="overlay1" class="overlay">
+        <div class="over-box">
             <h1>Lake Wakatipu</h1>
-            <i class="fas fa-times-circle fa-3x" id=close onclick="overlayOff()"></i>
+            <i class="fas fa-times-circle fa-3x close" onclick="overlayOff1()"></i>
             <img src="./images/pic1.png" alt="Overlay-Picture">
+        </div>
+    </div>
+    <div id="overlay2" class="overlay">
+        <div class="over-box">
+            <h1>Lake Web Kai</h1>
+            <i class="fas fa-times-circle fa-3x close" onclick="overlayOff2()"></i>
+            <img src="./images/pic2.png" alt="Overlay-Picture">
+        </div>
+    </div>
+    <div id="overlay3" class="overlay">
+        <div class="over-box">
+            <h1>Doubtful Sound Fjord</h1>
+            <i class="fas fa-times-circle fa-3x close" onclick="overlayOff3()"></i>
+            <img src="./images/pic3.png" alt="Overlay-Picture">
+        </div>
+    </div>
+    <div id="overlay4" class="overlay">
+        <div class="over-box">
+            <h1>Sun Rise Beach Auckland</h1>
+            <i class="fas fa-times-circle fa-3x close" onclick="overlayOff4()"></i>
+            <img src="./images/pic4.png" alt="Overlay-Picture">
         </div>
     </div>
     <script src="test.js"></script>
